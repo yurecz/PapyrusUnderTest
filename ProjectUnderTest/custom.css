@@ -1,0 +1,35 @@
+Class > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~="Filter"]{
+	displayName: true
+}
+
+Class[appliedStereotypes~="Filter"] > Compartment[kind="attributes"]{
+	visible: true
+}
+
+Class[appliedStereotypes~="View"] > Compartment[kind="attributes"]{
+	visible: true
+}
+
+Class[appliedStereotypes~="Join"] > Compartment[kind="attributes"]{
+	visible: true
+}
+
+
+Label[type=StereotypeLabel] {
+	visible:false;
+}
+
+Property {
+   maskLabel: name;
+}
+
+Association > Label[kind=SourceRole],
+Association > Label[kind=TargetRole],
+Association > Label[kind=TargetMultiplicity],
+Association > Label[kind=SourceMultiplicity]{
+    visible: false;
+}
