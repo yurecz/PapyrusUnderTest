@@ -2,10 +2,6 @@ Class > Compartment{
 	visible: false;
 }
 
-Class[appliedStereotypes~="Filter"]{
-	displayName: true
-}
-
 Class[appliedStereotypes~="Filter"] > Compartment[kind="attributes"]{
 	visible: true
 }
@@ -15,6 +11,10 @@ Class[appliedStereotypes~="View"] > Compartment[kind="attributes"]{
 }
 
 Class[appliedStereotypes~="Join"] > Compartment[kind="attributes"]{
+	visible: true
+}
+
+Class[appliedStereotypes~="UnionAll"] > Compartment[kind="attributes"]{
 	visible: true
 }
 
