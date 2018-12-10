@@ -9,7 +9,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xEna8fuaEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_xEpQIfuaEeia5JCB0J42hw" name="i_acdoca" type="_PgrN8PmcEeiCSaM3D65fEA" association="_xEkXoPuaEeia5JCB0J42hw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_xEopEPuaEeia5JCB0J42hw" name="view" type="_POlNkPo6Eeip355UJMFd-g" association="_xEkXoPuaEeia5JCB0J42hw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xEopEPuaEeia5JCB0J42hw" name="view" type="_uyyyIPxyEeimVIZ6GSUYUw" association="_xEkXoPuaEeia5JCB0J42hw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xEopEfuaEeia5JCB0J42hw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xEpQIPuaEeia5JCB0J42hw" value="1"/>
       </ownedEnd>
@@ -18,7 +18,7 @@
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W3h7oPudEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W3iisPudEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_W3iitPudEeia5JCB0J42hw" name="view" type="_POlNkPo6Eeip355UJMFd-g" association="_W3gGcPudEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_W3iitPudEeia5JCB0J42hw" name="view" type="_uyyyIPxyEeimVIZ6GSUYUw" association="_W3gGcPudEeia5JCB0J42hw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_W3iisfudEeia5JCB0J42hw" name="filter" type="_3K2gUPmgEeiCSaM3D65fEA" association="_W3gGcPudEeia5JCB0J42hw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W3iisvudEeia5JCB0J42hw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W3iis_udEeia5JCB0J42hw" value="1"/>
@@ -111,11 +111,6 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_gr2osPvaEeia5JCB0J42hw" name="Property3"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_U3_joPvbEeia5JCB0J42hw" name="Property4"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_POlNkPo6Eeip355UJMFd-g" name="NonMonetaryItems">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_-gbxwPuYEeia5JCB0J42hw" name="Property1"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Q_AJYPuaEeia5JCB0J42hw" name="Property2"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_WKgIcPubEeia5JCB0J42hw" name="Property3"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_3K2gUPmgEeiCSaM3D65fEA" name="view">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_QrrRAPvXEeia5JCB0J42hw" name="Property3"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WLskAPvXEeia5JCB0J42hw" name="Property4"/>
@@ -143,6 +138,11 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_wGbHAPvfEeia5JCB0J42hw" name="New FX Gain or Loss"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_PgrN8PmcEeiCSaM3D65fEA" name="I_ACDOCA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uyyyIPxyEeimVIZ6GSUYUw" name="NonMonetaryItems">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_26D0MPxyEeimVIZ6GSUYUw" name="Property1"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7qUeMPxyEeimVIZ6GSUYUw" name="Property2"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Be3PsPxzEeimVIZ6GSUYUw" name="Property3"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kemj8PmdEeiCSaM3D65fEA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZZ7EcPvgEeia5JCB0J42hw" source="PapyrusVersion">
@@ -165,13 +165,12 @@
     </profileApplication>
   </uml:Model>
   <CustomProfile:Datasource xmi:id="_dD9P8PmgEeiCSaM3D65fEA" base_Class="_PgrN8PmcEeiCSaM3D65fEA"/>
-  <CustomProfile:Filter xmi:id="_chjfgPo6Eeip355UJMFd-g" base_Class="_POlNkPo6Eeip355UJMFd-g"/>
   <CustomProfile:Join xmi:id="_dXclsPo6Eeip355UJMFd-g" base_Class="_QerjgPo6Eeip355UJMFd-g"/>
   <CustomProfile:View xmi:id="_4f-x4Po9Eeip355UJMFd-g" base_Class="_3K2gUPmgEeiCSaM3D65fEA"/>
   <CustomProfile:View xmi:id="_qAPFgPvXEeia5JCB0J42hw" base_Class="_16k1kPugEeia5JCB0J42hw"/>
   <CustomProfile:View xmi:id="_1urNIPvYEeia5JCB0J42hw" base_Class="_fp1XYPugEeia5JCB0J42hw"/>
   <CustomProfile:Filter xmi:id="_d67ZMPvaEeia5JCB0J42hw" base_Class="_UxB1cPvaEeia5JCB0J42hw"/>
   <CustomProfile:UnionAll xmi:id="_v6wfAPveEeia5JCB0J42hw" base_Class="_4D1BEPugEeia5JCB0J42hw"/>
-  <CustomProfile:Selection xmi:id="_cw-f0PvgEeia5JCB0J42hw" base_Property="_-gbxwPuYEeia5JCB0J42hw"/>
   <CustomProfile:View xmi:id="_RwlCkPviEeia5JCB0J42hw" base_Class="_LUpg8PviEeia5JCB0J42hw"/>
+  <CustomProfile:Filter xmi:id="_xnsisPxyEeimVIZ6GSUYUw" base_Class="_uyyyIPxyEeimVIZ6GSUYUw"/>
 </xmi:XMI>
