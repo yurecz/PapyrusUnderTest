@@ -166,11 +166,11 @@
   </uml:Model>
   <CustomProfile:Datasource xmi:id="_dD9P8PmgEeiCSaM3D65fEA" base_Class="_PgrN8PmcEeiCSaM3D65fEA"/>
   <CustomProfile:Join xmi:id="_dXclsPo6Eeip355UJMFd-g" base_Class="_QerjgPo6Eeip355UJMFd-g"/>
-  <CustomProfile:View xmi:id="_4f-x4Po9Eeip355UJMFd-g" base_Class="_3K2gUPmgEeiCSaM3D65fEA"/>
   <CustomProfile:View xmi:id="_qAPFgPvXEeia5JCB0J42hw" base_Class="_16k1kPugEeia5JCB0J42hw"/>
   <CustomProfile:View xmi:id="_1urNIPvYEeia5JCB0J42hw" base_Class="_fp1XYPugEeia5JCB0J42hw"/>
   <CustomProfile:Filter xmi:id="_d67ZMPvaEeia5JCB0J42hw" base_Class="_UxB1cPvaEeia5JCB0J42hw"/>
   <CustomProfile:UnionAll xmi:id="_v6wfAPveEeia5JCB0J42hw" base_Class="_4D1BEPugEeia5JCB0J42hw"/>
   <CustomProfile:View xmi:id="_RwlCkPviEeia5JCB0J42hw" base_Class="_LUpg8PviEeia5JCB0J42hw"/>
   <CustomProfile:Filter xmi:id="_xnsisPxyEeimVIZ6GSUYUw" base_Class="_uyyyIPxyEeimVIZ6GSUYUw"/>
+  <CustomProfile:View xmi:id="_a5rHQPyhEeio5sTbxa9hyA" base_Class="_3K2gUPmgEeiCSaM3D65fEA"/>
 </xmi:XMI>
