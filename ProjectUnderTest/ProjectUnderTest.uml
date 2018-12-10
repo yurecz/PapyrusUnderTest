@@ -24,35 +24,55 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W3iis_udEeia5JCB0J42hw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_2rlbwPugEeia5JCB0J42hw" memberEnd="_2rmC0fugEeia5JCB0J42hw _2rmC1PugEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_2rlbwPugEeia5JCB0J42hw" memberEnd="_2rmC0fugEeia5JCB0J42hw _2rmC1PugEeia5JCB0J42hw" navigableOwnedEnd="_2rmC0fugEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rlbwfugEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rmC0PugEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_2rmC1PugEeia5JCB0J42hw" name="view" type="_3K2gUPmgEeiCSaM3D65fEA" association="_2rlbwPugEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2rmC0fugEeia5JCB0J42hw" name="class15" type="_16k1kPugEeia5JCB0J42hw" association="_2rlbwPugEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2rmC0vugEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2rmC0_ugEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4eVLwPugEeia5JCB0J42hw" memberEnd="_4eWZ4vugEeia5JCB0J42hw _4eXoAfugEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_4eVLwPugEeia5JCB0J42hw" memberEnd="_4eWZ4vugEeia5JCB0J42hw _4eXoAfugEeia5JCB0J42hw" navigableOwnedEnd="_4eWZ4vugEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4eWZ4PugEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4eWZ4fugEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_4eXoAfugEeia5JCB0J42hw" name="join" type="_QerjgPo6Eeip355UJMFd-g" association="_4eVLwPugEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_4eWZ4vugEeia5JCB0J42hw" name="class18" type="_4D1BEPugEeia5JCB0J42hw" association="_4eVLwPugEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4eXA8PugEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4eXoAPugEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_43i9APugEeia5JCB0J42hw" memberEnd="_43jkEvugEeia5JCB0J42hw _43jkFfugEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_43i9APugEeia5JCB0J42hw" memberEnd="_43jkEvugEeia5JCB0J42hw _43jkFfugEeia5JCB0J42hw" navigableOwnedEnd="_43jkEvugEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_43jkEPugEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_43jkEfugEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_43jkFfugEeia5JCB0J42hw" name="class13" type="_fp1XYPugEeia5JCB0J42hw" association="_43i9APugEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_43jkEvugEeia5JCB0J42hw" name="class18" type="_QerjgPo6Eeip355UJMFd-g" association="_43i9APugEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_43jkE_ugEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_43jkFPugEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_NSRPwPvYEeia5JCB0J42hw" memberEnd="_NSR20vvYEeia5JCB0J42hw _NSSd4vvYEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_NSRPwPvYEeia5JCB0J42hw" memberEnd="_NSR20vvYEeia5JCB0J42hw _NSSd4vvYEeia5JCB0J42hw" navigableOwnedEnd="_NSR20vvYEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NSR20PvYEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NSR20fvYEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_NSSd4vvYEeia5JCB0J42hw" name="apply valuation logic" type="_16k1kPugEeia5JCB0J42hw" association="_NSRPwPvYEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NSR20vvYEeia5JCB0J42hw" name="join" type="_QerjgPo6Eeip355UJMFd-g" association="_NSRPwPvYEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NSSd4PvYEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NSSd4fvYEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_SgF_gPvYEeia5JCB0J42hw" memberEnd="_SgGmkvvYEeia5JCB0J42hw _SgHNovvYEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_SgF_gPvYEeia5JCB0J42hw" memberEnd="_SgGmkvvYEeia5JCB0J42hw _SgHNovvYEeia5JCB0J42hw" navigableOwnedEnd="_SgGmkvvYEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SgGmkPvYEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SgGmkfvYEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_SgHNovvYEeia5JCB0J42hw" name="apply valuation logic" type="_16k1kPugEeia5JCB0J42hw" association="_SgF_gPvYEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_SgGmkvvYEeia5JCB0J42hw" name="class13" type="_fp1XYPugEeia5JCB0J42hw" association="_SgF_gPvYEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SgHNoPvYEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SgHNofvYEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_b-HHMPvaEeia5JCB0J42hw" memberEnd="_b-HuQvvaEeia5JCB0J42hw _b-IVUvvaEeia5JCB0J42hw" navigableOwnedEnd="_b-HuQvvaEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b-HuQPvaEeia5JCB0J42hw" source="org.eclipse.papyrus">
@@ -64,17 +84,25 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b-IVUfvaEeia5JCB0J42hw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_LA1UcPvfEeia5JCB0J42hw" memberEnd="_LA3JofvfEeia5JCB0J42hw _LA3JpPvfEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_LA1UcPvfEeia5JCB0J42hw" memberEnd="_LA3JofvfEeia5JCB0J42hw _LA3JpPvfEeia5JCB0J42hw" navigableOwnedEnd="_LA3JofvfEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LA2ikPvfEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LA3JoPvfEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_LA3JpPvfEeia5JCB0J42hw" name="prevouse fx calculations" type="_UxB1cPvaEeia5JCB0J42hw" association="_LA1UcPvfEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_LA3JofvfEeia5JCB0J42hw" name="join" type="_4D1BEPugEeia5JCB0J42hw" association="_LA1UcPvfEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LA3JovvfEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LA3Jo_vfEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Pu_lUPviEeia5JCB0J42hw" memberEnd="_PvCBkPviEeia5JCB0J42hw _PvDPsvviEeia5JCB0J42hw">
+    <packagedElement xmi:type="uml:Association" xmi:id="_Pu_lUPviEeia5JCB0J42hw" memberEnd="_PvCBkPviEeia5JCB0J42hw _PvDPsvviEeia5JCB0J42hw" navigableOwnedEnd="_PvCBkPviEeia5JCB0J42hw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PvBagPviEeia5JCB0J42hw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PvBagfviEeia5JCB0J42hw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_PvDPsvviEeia5JCB0J42hw" name="union all" type="_4D1BEPugEeia5JCB0J42hw" association="_Pu_lUPviEeia5JCB0J42hw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PvCBkPviEeia5JCB0J42hw" name="generate" type="_LUpg8PviEeia5JCB0J42hw" association="_Pu_lUPviEeia5JCB0J42hw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PvDPsPviEeia5JCB0J42hw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PvDPsfviEeia5JCB0J42hw" value="1"/>
+      </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ilH90PviEeia5JCB0J42hw" name="nonOIMFXAlgorithm">
       <packagedElement xmi:type="uml:Class" xmi:id="_UxB1cPvaEeia5JCB0J42hw" name="PrevouseFXcalculations">
@@ -82,10 +110,6 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_grHB0PvaEeia5JCB0J42hw" name="SLALITTYPE = '06210'"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_gr2osPvaEeia5JCB0J42hw" name="Property3"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_U3_joPvbEeia5JCB0J42hw" name="Property4"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_LA3JofvfEeia5JCB0J42hw" name="join" type="_4D1BEPugEeia5JCB0J42hw" association="_LA1UcPvfEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LA3JovvfEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LA3Jo_vfEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_POlNkPo6Eeip355UJMFd-g" name="NonMonetaryItems">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_-gbxwPuYEeia5JCB0J42hw" name="Property1"/>
@@ -93,30 +117,14 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WKgIcPubEeia5JCB0J42hw" name="Property3"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_3K2gUPmgEeiCSaM3D65fEA" name="view">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_2rmC0fugEeia5JCB0J42hw" name="class15" type="_16k1kPugEeia5JCB0J42hw" association="_2rlbwPugEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2rmC0vugEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2rmC0_ugEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_QrrRAPvXEeia5JCB0J42hw" name="Property3"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WLskAPvXEeia5JCB0J42hw" name="Property4"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_16k1kPugEeia5JCB0J42hw" name="Apply Valuation Logic">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_NSR20vvYEeia5JCB0J42hw" name="join" type="_QerjgPo6Eeip355UJMFd-g" association="_NSRPwPvYEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NSSd4PvYEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NSSd4fvYEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_SgGmkvvYEeia5JCB0J42hw" name="class13" type="_fp1XYPugEeia5JCB0J42hw" association="_SgF_gPvYEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SgHNoPvYEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SgHNofvYEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_cOZMoPvfEeia5JCB0J42hw" name="Base Amounts"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hWtKQPvfEeia5JCB0J42hw" name="New FX amounts"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_fp1XYPugEeia5JCB0J42hw" name="Grouping">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_43jkEvugEeia5JCB0J42hw" name="class18" type="_QerjgPo6Eeip355UJMFd-g" association="_43i9APugEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_43jkE_ugEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_43jkFPugEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_-RdtkPvYEeia5JCB0J42hw" name="sum(New Fx Amounts) -> New FX Gain or Loss flag"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_BKgXQPvZEeia5JCB0J42hw" name="group by FX Valuation Fields"/>
       </packagedElement>
@@ -126,17 +134,9 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_xm2GAPvhEeia5JCB0J42hw" name="Property3"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_yLWhQPvhEeia5JCB0J42hw" name="Property4"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_C0AVkPviEeia5JCB0J42hw" name="ee"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_PvCBkPviEeia5JCB0J42hw" name="generate" type="_LUpg8PviEeia5JCB0J42hw" association="_Pu_lUPviEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PvDPsPviEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PvDPsfviEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_LUpg8PviEeia5JCB0J42hw" name="Generate"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_QerjgPo6Eeip355UJMFd-g" name="join">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_4eWZ4vugEeia5JCB0J42hw" name="class18" type="_4D1BEPugEeia5JCB0J42hw" association="_4eVLwPugEeia5JCB0J42hw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4eXA8PugEeia5JCB0J42hw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4eXoAPugEeia5JCB0J42hw" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_SghA0PvZEeia5JCB0J42hw" name="Property2"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_tgXqwPvfEeia5JCB0J42hw" name="Base Amounts"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_vuS64PvfEeia5JCB0J42hw" name="New FX Amounts"/>
