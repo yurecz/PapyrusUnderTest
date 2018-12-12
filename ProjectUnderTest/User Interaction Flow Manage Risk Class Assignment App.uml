@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_g2wHMP31Eeip3bradEqtnw" name="Program Flow Manage Risk Class Assignment App">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_g6leUP31Eeip3bradEqtnw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_daHDYP4EEei3I7msLrPS1Q" name="(Re)Assignment of the Risk Class to the Impairable line items" node="_ezTD4P4EEei3I7msLrPS1Q _oR5FQP4EEei3I7msLrPS1Q _qlEo0P4EEei3I7msLrPS1Q _rQtm0P4EEei3I7msLrPS1Q _4PtM0P4EEei3I7msLrPS1Q _FP5FoP4FEei3I7msLrPS1Q _QRiOIP4FEei3I7msLrPS1Q _WO0gYP4PEei3I7msLrPS1Q _ZoaSYP4PEei3I7msLrPS1Q _qXfCUP4QEei3I7msLrPS1Q _GCo6wP4REei3I7msLrPS1Q _LGWsQP4REei3I7msLrPS1Q _XYLesP4bEei3I7msLrPS1Q _ArAtwP4cEei3I7msLrPS1Q _g698MP4eEei3I7msLrPS1Q _jXLf8P4eEei3I7msLrPS1Q" group="_4YnSYP4eEei3I7msLrPS1Q">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_L3ayQP4QEei3I7msLrPS1Q" annotatedElement="_QRiOIP4FEei3I7msLrPS1Q">
+      <body>Errors: Risk Class is not specified or coincide with the current Risk Class, Amount is not maintained or larger than the current base amount&#xD;
+</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jopCMP4EEei3I7msLrPS1Q" target="_oR5FQP4EEei3I7msLrPS1Q" source="_ezTD4P4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sXu5QP4EEei3I7msLrPS1Q" target="_qlEo0P4EEei3I7msLrPS1Q" source="_oR5FQP4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_s99y0P4EEei3I7msLrPS1Q" target="_rQtm0P4EEei3I7msLrPS1Q" source="_oR5FQP4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_478nwP4EEei3I7msLrPS1Q" target="_4PtM0P4EEei3I7msLrPS1Q" source="_qlEo0P4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5g35wP4EEei3I7msLrPS1Q" target="_4PtM0P4EEei3I7msLrPS1Q" source="_rQtm0P4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LaSLUP4FEei3I7msLrPS1Q" target="_FP5FoP4FEei3I7msLrPS1Q" source="_4PtM0P4EEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XmQNYP4PEei3I7msLrPS1Q" target="_ZoaSYP4PEei3I7msLrPS1Q" source="_QRiOIP4FEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hFfH8P4PEei3I7msLrPS1Q" target="_QRiOIP4FEei3I7msLrPS1Q" source="_WO0gYP4PEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NCBuwP4REei3I7msLrPS1Q" target="_XYLesP4bEei3I7msLrPS1Q" source="_ZoaSYP4PEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NjXhQP4REei3I7msLrPS1Q" target="_LGWsQP4REei3I7msLrPS1Q" source="_GCo6wP4REei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OUzlQP4REei3I7msLrPS1Q" target="_g698MP4eEei3I7msLrPS1Q" source="_LGWsQP4REei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cBcv4P4bEei3I7msLrPS1Q" target="_GCo6wP4REei3I7msLrPS1Q" source="_XYLesP4bEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y-48AP4bEei3I7msLrPS1Q" target="_WO0gYP4PEei3I7msLrPS1Q" source="_FP5FoP4FEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LZBIkP4cEei3I7msLrPS1Q" name="there are errors or the backend state is changed" target="_jXLf8P4eEei3I7msLrPS1Q" source="_XYLesP4bEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MW0NkP4cEei3I7msLrPS1Q" target="_WO0gYP4PEei3I7msLrPS1Q" source="_ArAtwP4cEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rCMD0P4eEei3I7msLrPS1Q" target="_qXfCUP4QEei3I7msLrPS1Q" source="_g698MP4eEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sEaV0P4eEei3I7msLrPS1Q" name="navigate backward" target="_jXLf8P4eEei3I7msLrPS1Q" source="_g698MP4eEei3I7msLrPS1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_suJPUP4eEei3I7msLrPS1Q" target="_ArAtwP4cEei3I7msLrPS1Q" source="_jXLf8P4eEei3I7msLrPS1Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_4YnSYP4eEei3I7msLrPS1Q" name="Post General Journal Entries Fiori App" node="_GCo6wP4REei3I7msLrPS1Q _LGWsQP4REei3I7msLrPS1Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ezTD4P4EEei3I7msLrPS1Q" outgoing="_jopCMP4EEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_oR5FQP4EEei3I7msLrPS1Q" incoming="_jopCMP4EEei3I7msLrPS1Q" outgoing="_sXu5QP4EEei3I7msLrPS1Q _s99y0P4EEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qlEo0P4EEei3I7msLrPS1Q" name="Set Filter Conditions" incoming="_sXu5QP4EEei3I7msLrPS1Q" outgoing="_478nwP4EEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rQtm0P4EEei3I7msLrPS1Q" name="Select Splitting Fields" incoming="_s99y0P4EEei3I7msLrPS1Q" outgoing="_5g35wP4EEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_4PtM0P4EEei3I7msLrPS1Q" incoming="_478nwP4EEei3I7msLrPS1Q _5g35wP4EEei3I7msLrPS1Q" outgoing="_LaSLUP4FEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FP5FoP4FEei3I7msLrPS1Q" name="Execute selection" incoming="_LaSLUP4FEei3I7msLrPS1Q" outgoing="_y-48AP4bEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QRiOIP4FEei3I7msLrPS1Q" name="Enter new Risk Class and Amounts" incoming="_hFfH8P4PEei3I7msLrPS1Q" outgoing="_XmQNYP4PEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WO0gYP4PEei3I7msLrPS1Q" incoming="_y-48AP4bEei3I7msLrPS1Q _MW0NkP4cEei3I7msLrPS1Q" outgoing="_hFfH8P4PEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZoaSYP4PEei3I7msLrPS1Q" name="Naviage to the Post GL Postings Fiori App" incoming="_XmQNYP4PEei3I7msLrPS1Q" outgoing="_NCBuwP4REei3I7msLrPS1Q"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_qXfCUP4QEei3I7msLrPS1Q" incoming="_rCMD0P4eEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GCo6wP4REei3I7msLrPS1Q" name="Review GL postings" incoming="_cBcv4P4bEei3I7msLrPS1Q" outgoing="_NjXhQP4REei3I7msLrPS1Q" inPartition="_4YnSYP4eEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LGWsQP4REei3I7msLrPS1Q" name="Post GL Postings Document" incoming="_NjXhQP4REei3I7msLrPS1Q" outgoing="_OUzlQP4REei3I7msLrPS1Q" inPartition="_4YnSYP4eEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_XYLesP4bEei3I7msLrPS1Q" incoming="_NCBuwP4REei3I7msLrPS1Q" outgoing="_cBcv4P4bEei3I7msLrPS1Q _LZBIkP4cEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ArAtwP4cEei3I7msLrPS1Q" name="Refresh selection screen" incoming="_suJPUP4eEei3I7msLrPS1Q" outgoing="_MW0NkP4cEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_g698MP4eEei3I7msLrPS1Q" incoming="_OUzlQP4REei3I7msLrPS1Q" outgoing="_rCMD0P4eEei3I7msLrPS1Q _sEaV0P4eEei3I7msLrPS1Q"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_jXLf8P4eEei3I7msLrPS1Q" name="" incoming="_LZBIkP4cEei3I7msLrPS1Q _sEaV0P4eEei3I7msLrPS1Q" outgoing="_suJPUP4eEei3I7msLrPS1Q"/>
+  </packagedElement>
+</uml:Model>
