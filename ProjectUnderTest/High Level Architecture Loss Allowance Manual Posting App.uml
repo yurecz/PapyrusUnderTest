@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S3jyEP09Eei5i5K1n_Ex5Q" name="HighLevelArchitectureLossAllowanceManualPostingApp" URI="">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_Cy7EQP1SEeip3bradEqtnw">
+    <annotatedElement xmi:type="uml:Association" href="High%20Level%20Architecture%20Manage%20Risk%20Class%20Assignment%20App.uml#_Ztdj4PyCEeiv1NSfZvfcVw"/>
+    <annotatedElement xmi:type="uml:Association" href="#_gBG1sP1SEeip3bradEqtnw"/>
+    <body>navigate to another app</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_J7zLcP1SEeip3bradEqtnw">
+    <annotatedElement xmi:type="uml:Package" href="High%20Level%20Architecture%20Manage%20Risk%20Class%20Assignment%20App.uml#_LS-w8Px6EeimVIZ6GSUYUw"/>
+    <annotatedElement xmi:type="uml:Class" href="High%20Level%20Architecture%20Manage%20Risk%20Class%20Assignment%20App.uml#_z-i2kPx4EeimVIZ6GSUYUw"/>
+    <annotatedElement xmi:type="uml:Class" href="#_6y-noP1QEeip3bradEqtnw"/>
+    <body>A user starts here</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_Kr-EIP1SEeip3bradEqtnw">
+    <annotatedElement xmi:type="uml:Class" href="High%20Level%20Architecture%20Manage%20Risk%20Class%20Assignment%20App.uml#_wUg00Px4EeimVIZ6GSUYUw"/>
+    <annotatedElement xmi:type="uml:Class" href="#__OyroP1QEeip3bradEqtnw"/>
+    <body>non-OIM line items tagged &quot;IMPAIRABLE&quot; with risk class assigned and all Loss Allowance line items</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_S7OKEP09Eei5i5K1n_Ex5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_4sgDUP1QEeip3bradEqtnw" name="S/4HANA Gateway">
+    <packagedElement xmi:type="uml:Package" xmi:id="_2rSZgP1QEeip3bradEqtnw" name="Post General Journal Entries Fiori App">
+      <packagedElement xmi:type="uml:Class" xmi:id="_3D1cYP1QEeip3bradEqtnw" name="Fiori App Post GL Document"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6egzgP1QEeip3bradEqtnw" name="Loss Allowance Manual Postings Fiori App">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6y-noP1QEeip3bradEqtnw" name="Fiori Elements List Report Template"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_94SLsP1QEeip3bradEqtnw" name="S/4HANA Backend">
+    <packagedElement xmi:type="uml:Package" xmi:id="_-UMEkP1QEeip3bradEqtnw" name="Universal General Ledger">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-7ptMP1QEeip3bradEqtnw" name="Post  GL Document"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9uEqUP1REeip3bradEqtnw" name="Post Temporary GL Document"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-kYcsP1QEeip3bradEqtnw" name="Restful ABAP programming model">
+      <packagedElement xmi:type="uml:Class" xmi:id="__OyroP1QEeip3bradEqtnw" name="VDM CDS View"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2GMS8P1REeip3bradEqtnw" name="Function Import"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EH89gP1SEeip3bradEqtnw" memberEnd="_EMTSAP1SEeip3bradEqtnw _EMcb8P1SEeip3bradEqtnw" navigableOwnedEnd="_EMTSAP1SEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EMRc0P1SEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EMSD4P1SEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EMTSAP1SEeip3bradEqtnw" name="vdm cds view" type="__OyroP1QEeip3bradEqtnw" association="_EH89gP1SEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EMcb8P1SEeip3bradEqtnw" name="fiori elements list report template" type="_6y-noP1QEeip3bradEqtnw" association="_EH89gP1SEeip3bradEqtnw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GeYCUP1SEeip3bradEqtnw" memberEnd="_Gi2Sov1SEeip3bradEqtnw _Gi4u4P1SEeip3bradEqtnw" navigableOwnedEnd="_Gi2Sov1SEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gi2SoP1SEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gi2Sof1SEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gi2Sov1SEeip3bradEqtnw" name="function import" type="_2GMS8P1REeip3bradEqtnw" association="_GeYCUP1SEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gi4u4P1SEeip3bradEqtnw" name="fiori elements list report template" type="_6y-noP1QEeip3bradEqtnw" association="_GeYCUP1SEeip3bradEqtnw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gBG1sP1SEeip3bradEqtnw" memberEnd="_gG2RUv1SEeip3bradEqtnw _gG5UoP1SEeip3bradEqtnw" navigableOwnedEnd="_gG2RUv1SEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gG2RUP1SEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gG2RUf1SEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gG2RUv1SEeip3bradEqtnw" name="fiori app post gl document" type="_3D1cYP1QEeip3bradEqtnw" association="_gBG1sP1SEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gG5UoP1SEeip3bradEqtnw" name="fiori elements list report template" type="_6y-noP1QEeip3bradEqtnw" association="_gBG1sP1SEeip3bradEqtnw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sW7i4P1SEeip3bradEqtnw" memberEnd="_scyTQv1SEeip3bradEqtnw _sc1WkP1SEeip3bradEqtnw" navigableOwnedEnd="_scyTQv1SEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_scyTQP1SEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_scyTQf1SEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_scyTQv1SEeip3bradEqtnw" name="post temporary gl document" type="_9uEqUP1REeip3bradEqtnw" association="_sW7i4P1SEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sc1WkP1SEeip3bradEqtnw" name="fiori app post gl document" type="_3D1cYP1QEeip3bradEqtnw" association="_sW7i4P1SEeip3bradEqtnw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uzGqYP1SEeip3bradEqtnw" memberEnd="_u5Xqcv1SEeip3bradEqtnw _u5bU0P1SEeip3bradEqtnw" navigableOwnedEnd="_u5Xqcv1SEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u5XqcP1SEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u5Xqcf1SEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u5Xqcv1SEeip3bradEqtnw" name="post temporary gl document" type="_-7ptMP1QEeip3bradEqtnw" association="_uzGqYP1SEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u5bU0P1SEeip3bradEqtnw" name="fiori app post gl document" type="_3D1cYP1QEeip3bradEqtnw" association="_uzGqYP1SEeip3bradEqtnw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sXqpEP1aEeip3bradEqtnw" memberEnd="_sgGzYf1aEeip3bradEqtnw _sgKdwP1aEeip3bradEqtnw" navigableOwnedEnd="_sgGzYf1aEeip3bradEqtnw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sgGMUP1aEeip3bradEqtnw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sgGzYP1aEeip3bradEqtnw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sgGzYf1aEeip3bradEqtnw" name="post temporary gl document" type="_9uEqUP1REeip3bradEqtnw" association="_sXqpEP1aEeip3bradEqtnw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sgKdwP1aEeip3bradEqtnw" name="function import" type="_2GMS8P1REeip3bradEqtnw" association="_sXqpEP1aEeip3bradEqtnw"/>
+  </packagedElement>
+</uml:Model>

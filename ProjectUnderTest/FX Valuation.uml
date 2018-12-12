@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CustomProfile="http:///schemas/CustomProfile/_Vj6cMPvgEeia5JCB0J42hw/17" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/CustomProfile/_Vj6cMPvgEeia5JCB0J42hw/17 CustomProfile.profile.uml#_Vj7DQPvgEeia5JCB0J42hw">
-  <uml:Model xmi:id="_gg97oPmbEeiCSaM3D65fEA" name="ProjectUnderTest" URI="">
+  <uml:Model xmi:id="_gg97oPmbEeiCSaM3D65fEA" name="FX Valuation Logic" URI="">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_goxz0PmbEeiCSaM3D65fEA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -104,45 +104,43 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PvDPsfviEeia5JCB0J42hw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_ilH90PviEeia5JCB0J42hw" name="nonOIMFXAlgorithm">
-      <packagedElement xmi:type="uml:Class" xmi:id="_UxB1cPvaEeia5JCB0J42hw" name="PrevouseFXcalculations">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_eXSlEPvaEeia5JCB0J42hw" name="Property1"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_grHB0PvaEeia5JCB0J42hw" name="SLALITTYPE = '06210'"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_gr2osPvaEeia5JCB0J42hw" name="Property3"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_U3_joPvbEeia5JCB0J42hw" name="Property4"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3K2gUPmgEeiCSaM3D65fEA" name="view">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_QrrRAPvXEeia5JCB0J42hw" name="Property3"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_WLskAPvXEeia5JCB0J42hw" name="Property4"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_16k1kPugEeia5JCB0J42hw" name="Apply Valuation Logic">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_cOZMoPvfEeia5JCB0J42hw" name="Base Amounts"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_hWtKQPvfEeia5JCB0J42hw" name="New FX amounts"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fp1XYPugEeia5JCB0J42hw" name="Grouping">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_-RdtkPvYEeia5JCB0J42hw" name="sum(New Fx Amounts) -> New FX Gain or Loss flag"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_BKgXQPvZEeia5JCB0J42hw" name="group by FX Valuation Fields"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_4D1BEPugEeia5JCB0J42hw" name="Union All">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_NJQZgPvfEeia5JCB0J42hw" name="Property1"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_sPdxoPvhEeia5JCB0J42hw" name="Property2"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_xm2GAPvhEeia5JCB0J42hw" name="Property3"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_yLWhQPvhEeia5JCB0J42hw" name="Property4"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_C0AVkPviEeia5JCB0J42hw" name="ee"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_LUpg8PviEeia5JCB0J42hw" name="Generate"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_QerjgPo6Eeip355UJMFd-g" name="join">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_SghA0PvZEeia5JCB0J42hw" name="Property2"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tgXqwPvfEeia5JCB0J42hw" name="Base Amounts"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_vuS64PvfEeia5JCB0J42hw" name="New FX Amounts"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_wGbHAPvfEeia5JCB0J42hw" name="New FX Gain or Loss"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_PgrN8PmcEeiCSaM3D65fEA" name="I_ACDOCA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_uyyyIPxyEeimVIZ6GSUYUw" name="NonMonetaryItems">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_26D0MPxyEeimVIZ6GSUYUw" name="Property1"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_7qUeMPxyEeimVIZ6GSUYUw" name="Property2"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Be3PsPxzEeimVIZ6GSUYUw" name="Property3"/>
-      </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UxB1cPvaEeia5JCB0J42hw" name="PrevouseFXcalculations">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXSlEPvaEeia5JCB0J42hw" name="Property1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_grHB0PvaEeia5JCB0J42hw" name="SLALITTYPE = '06210'"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gr2osPvaEeia5JCB0J42hw" name="Property3"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_U3_joPvbEeia5JCB0J42hw" name="Property4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3K2gUPmgEeiCSaM3D65fEA" name="view">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QrrRAPvXEeia5JCB0J42hw" name="Property3"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WLskAPvXEeia5JCB0J42hw" name="Property4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_16k1kPugEeia5JCB0J42hw" name="Apply Valuation Logic">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cOZMoPvfEeia5JCB0J42hw" name="Base Amounts"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hWtKQPvfEeia5JCB0J42hw" name="New FX amounts"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fp1XYPugEeia5JCB0J42hw" name="Grouping">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-RdtkPvYEeia5JCB0J42hw" name="sum(New Fx Amounts) -> New FX Gain or Loss flag"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BKgXQPvZEeia5JCB0J42hw" name="group by FX Valuation Fields"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4D1BEPugEeia5JCB0J42hw" name="Union All">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NJQZgPvfEeia5JCB0J42hw" name="Property1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sPdxoPvhEeia5JCB0J42hw" name="Property2"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xm2GAPvhEeia5JCB0J42hw" name="Property3"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yLWhQPvhEeia5JCB0J42hw" name="Property4"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_C0AVkPviEeia5JCB0J42hw" name="ee"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LUpg8PviEeia5JCB0J42hw" name="Generate"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QerjgPo6Eeip355UJMFd-g" name="join">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SghA0PvZEeia5JCB0J42hw" name="Property2"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tgXqwPvfEeia5JCB0J42hw" name="Base Amounts"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vuS64PvfEeia5JCB0J42hw" name="New FX Amounts"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wGbHAPvfEeia5JCB0J42hw" name="New FX Gain or Loss"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PgrN8PmcEeiCSaM3D65fEA" name="I_ACDOCA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uyyyIPxyEeimVIZ6GSUYUw" name="Monetary Items">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_26D0MPxyEeimVIZ6GSUYUw" name="Property1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7qUeMPxyEeimVIZ6GSUYUw" name="Property2"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Be3PsPxzEeimVIZ6GSUYUw" name="Property3"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kemj8PmdEeiCSaM3D65fEA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZZ7EcPvgEeia5JCB0J42hw" source="PapyrusVersion">
