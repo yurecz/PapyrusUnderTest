@@ -143,6 +143,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_BY6ZgAElEem3xKf1JyqUpA" name="Property5"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_HR60QAElEem3xKf1JyqUpA" name="Property6"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_aCRU4AElEem3xKf1JyqUpA" name="Property7"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rnjpMAEoEem3xKf1JyqUpA" name="Property8"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_jYCm4AEkEem3xKf1JyqUpA" name="Class29"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_ks4S4AEkEem3xKf1JyqUpA" name="Class30">
