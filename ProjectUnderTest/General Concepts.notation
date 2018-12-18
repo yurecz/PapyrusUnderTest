@@ -119,5 +119,5 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Y1A4QEmEem3xKf1JyqUpA" id="(0.3333333333333333,1.0)"/>
     </edges>
   </notation:Diagram>
-  <css:StyleSheetReference xmi:id="_DmNsoAEnEem3xKf1JyqUpA" path="/Valuation Diagrams/custom.css"/>
+  <css:StyleSheetReference xmi:id="_DmNsoAEnEem3xKf1JyqUpA" path="/IFRS9 Diagrams/custom.css"/>
 </xmi:XMI>
